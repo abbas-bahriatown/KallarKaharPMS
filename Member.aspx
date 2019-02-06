@@ -131,37 +131,37 @@
         <tr>
             <td class="auto-style5">Mr./Mrs./Miss. </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNomineName" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">SO/WO/DO </td>
             <td class="auto-style1">
-                <asp:TextBox ID="TextBox19" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNomineFather" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">N.I.C No </td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox17" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNomineNicNo" runat="server"></asp:TextBox>
             </td>
             <td>Relationship </td>
             <td>
-                <asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNomineRelationship" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">Contact No</td>
-            <td class="auto-style6">
-                <asp:TextBox ID="TextBox18" runat="server"></asp:TextBox>
+            <td class="auto-style1">Contact No</td>
+            <td class="auto-style1">
+                <asp:TextBox ID="txtNomineContactNo" runat="server"></asp:TextBox>
             </td>
-            <td>Nominee PNO</td>
-            <td>
-                <asp:TextBox ID="TextBox21" runat="server"></asp:TextBox>
+            <td class="auto-style1">Passport No</td>
+            <td class="auto-style1">
+                <asp:TextBox ID="txtNominePassportNo" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">Email</td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox22" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNomineEmail" runat="server"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

@@ -8,7 +8,7 @@
     <p>
         &nbsp;</p>
     <p>
-        User ID:&nbsp; tEST123  <asp:TextBox ID="txtID" runat="server" Width="333px"></asp:TextBox>
+        User ID:<asp:TextBox ID="txtID" runat="server" Width="333px"></asp:TextBox>
     </p>
     <p>
         User Name:

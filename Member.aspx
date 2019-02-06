@@ -1,32 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" %>
-
-<script runat="server">
-
-</script>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Member.aspx.cs" Inherits="Member1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
-    <style type="text/css">
-        .auto-style1 {
-            height: 26px;
-        }
-        .auto-style3 {
-            color: #000000;
-        }
-        .auto-style4 {
-        }
-        .auto-style5 {
-            height: 26px;
-            width: 143px;
-        }
-        .auto-style6 {
-        }
-        .auto-style7 {
-            height: 26px;
-            width: 125px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentbody" Runat="Server">
     <table class="w-100">

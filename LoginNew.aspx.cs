@@ -29,7 +29,8 @@ public partial class LoginNew : System.Web.UI.Page
             if (temp > 0)
             {
                 // allowinsert = false;
-                Session["Login"] = "1";
+               // Session["Login"] = "1";
+                this.Session["username"] = txtUserName.Text;
                 Response.Redirect("Home.aspx", true);
             }
             else

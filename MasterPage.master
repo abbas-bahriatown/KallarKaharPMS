@@ -35,10 +35,10 @@
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Member Information</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="Customer.aspx">New Member</a>
+                        <a href="Member.aspx">New Member</a>
                     </li>
                     <li>
-                        <a href="#">Home 2</a>
+                        <a href="Property.aspx">Property</a>
                     </li>
                     <li>
                         <a href="#">Home 3</a>

@@ -60,47 +60,47 @@
         <tr>
             <td class="auto-style9">Plot / House No</td>
             <td class="auto-style5">
-                <asp:TextBox ID="TextBox1" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtPlotNo" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="text-left">&nbsp; Sub Project</td>
             <td>
-                <asp:TextBox ID="TextBox6" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtSubProject" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Plot Size / Type</td>
             <td class="auto-style5" colspan="3">
-                <asp:TextBox ID="TextBox2" runat="server" Width="446px"></asp:TextBox>
+                <asp:TextBox ID="txtPlotSize" runat="server" Width="446px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style10">Block</td>
             <td class="auto-style4">
-                <asp:TextBox ID="TextBox3" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtPlotBlock" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="auto-style4">&nbsp; Street</td>
             <td class="auto-style4">
-                <asp:TextBox ID="TextBox5" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtPlotStreet" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style10">Apartment Block</td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox4" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtApartmentBlock" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="auto-style8">&nbsp; Apartment Floor</td>
             <td class="auto-style4">
-                <asp:TextBox ID="TextBox9" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtApartmentFloor" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style10">Allotment Date</td>
             <td class="auto-style4">
-                <asp:TextBox ID="TextBox10" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtAllotmentDate" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="auto-style4">Alloted By</td>
             <td class="auto-style4">
-                <asp:TextBox ID="TextBox11" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtAllotedBy" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -115,16 +115,18 @@
         <tr>
             <td class="auto-style9">Construction Status</td>
             <td class="auto-style5">
-                <asp:TextBox ID="TextBox8" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtConstructStatus" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="text-left">Developed Status</td>
             <td>
-                <asp:TextBox ID="TextBox7" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtDevStatus" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style9">Modified By</td>
-            <td class="auto-style5" colspan="3">&nbsp;</td>
+            <td class="auto-style4">Modified By</td>
+            <td class="auto-style4" colspan="3">
+                <asp:TextBox ID="txtConstructModifiedBy" runat="server" Width="446px"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style9">&nbsp;</td>
@@ -138,7 +140,7 @@
         <tr>
             <td class="auto-style9">Possession Handel&nbsp; </td>
             <td class="auto-style9">
-                <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtPossessionHandelOver" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>

@@ -52,10 +52,20 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style4"></td>
+            <td class="auto-style4"></td>
+            <td class="auto-style4"></td>
+            <td class="auto-style4"></td>
+        </tr>
+        <tr>
+            <td class="auto-style9">Registraion No</td>
+            <td class="auto-style5">
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            </td>
+            <td class="auto-style7">&nbsp;&nbsp; Project</td>
+            <td>
+                <asp:TextBox ID="txtProject" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style9">Plot / House No</td>
@@ -98,7 +108,7 @@
             <td class="auto-style4">
                 <asp:TextBox ID="txtAllotmentDate" runat="server" Width="150px"></asp:TextBox>
             </td>
-            <td class="auto-style4">Alloted By</td>
+            <td class="auto-style4">&nbsp;&nbsp; Alloted By</td>
             <td class="auto-style4">
                 <asp:TextBox ID="txtAllotedBy" runat="server" Width="150px"></asp:TextBox>
             </td>
@@ -117,7 +127,7 @@
             <td class="auto-style5">
                 <asp:TextBox ID="txtConstructStatus" runat="server" Width="150px"></asp:TextBox>
             </td>
-            <td class="text-left">Developed Status</td>
+            <td class="text-left">&nbsp;&nbsp; Developed Status</td>
             <td>
                 <asp:TextBox ID="txtDevStatus" runat="server" Width="150px"></asp:TextBox>
             </td>

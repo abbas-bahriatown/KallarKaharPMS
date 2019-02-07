@@ -103,7 +103,7 @@
         <tr>
             <td class="auto-style4">Mobile</td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtCustMobileNo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberMobileNo" runat="server"></asp:TextBox>
             </td>
             <td>Email Address</td>
             <td>

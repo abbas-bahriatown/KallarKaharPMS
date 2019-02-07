@@ -23,7 +23,7 @@
         <tr>
             <td class="auto-style1">Registration No</td>
             <td class="auto-style1">
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="RegNo" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style1"></td>
@@ -31,73 +31,73 @@
         <tr>
             <td class="auto-style4">Project</td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtProject" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Project" runat="server"></asp:TextBox>
             </td>
             <td>Sub Project</td>
             <td>
-                <asp:TextBox ID="txtSubProject" runat="server"></asp:TextBox>
+                <asp:TextBox ID="SubProject" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4"><span class="auto-style3">Name</span></td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtCustName" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberName" runat="server"></asp:TextBox>
                 <span class="auto-style3"></td>
             <td>Father Name</td>
             <td>
-                <asp:TextBox ID="txtCustFatherName" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberFather" runat="server"></asp:TextBox>
                 </span></td>
         </tr>
         <tr>
             <td class="auto-style5">CNIC</td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtCustCnic" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberCNIC" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">Gender</td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtCustGender" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberGender" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">Mailing Address</td>
             <td class="auto-style6" colspan="3">
-                <asp:TextBox ID="txtMailingAdd" runat="server" Width="420px"></asp:TextBox>
+                <asp:TextBox ID="MemberMailingAddress" runat="server" Width="420px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">City</td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtMailingCity" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberMailingCity" runat="server"></asp:TextBox>
             </td>
             <td>Country</td>
             <td>
-                <asp:TextBox ID="txtMailingCountry" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberMailingCountry" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">Permanent Address</td>
             <td class="auto-style6" colspan="3">
-                <asp:TextBox ID="txtPermanentAdd" runat="server" Width="421px"></asp:TextBox>
+                <asp:TextBox ID="MemberPermanentAdd" runat="server" Width="421px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style5">City </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtPermanentCity" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberPermanentCity" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">Country</td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtPermanentCountry" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberPermanentCountry" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style5">Tele (Office)</td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtTeleOff" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberTeleOff" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">Tele (Res)</td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtTeleRes" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberTeleRes" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -107,13 +107,13 @@
             </td>
             <td>Email Address</td>
             <td>
-                <asp:TextBox ID="txtCustEmailAdd" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberEmailAdd" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">Passport Number</td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtPassportNo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="MemberPassportNo" runat="server"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -130,38 +130,46 @@
         <tr>
             <td class="auto-style5">Mr./Mrs./Miss. </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtNomineName" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineName" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style1">SO/WO/DO </td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtNomineFather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineFather" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">N.I.C No </td>
             <td class="auto-style6">
-                <asp:TextBox ID="txtNomineNicNo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineNicNo" runat="server"></asp:TextBox>
             </td>
             <td>Relationship </td>
             <td>
-                <asp:TextBox ID="txtNomineRelationship" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineRelationship" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">Contact No</td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtNomineContactNo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineContactNo" runat="server"></asp:TextBox>
             </td>
-            <td class="auto-style1">Passport No</td>
+            <td class="auto-style1">Email</td>
             <td class="auto-style1">
-                <asp:TextBox ID="txtNominePassportNo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="NomineEmail" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">Email</td>
-            <td class="auto-style6">
-                <asp:TextBox ID="txtNomineEmail" runat="server"></asp:TextBox>
+            <td class="auto-style4">
+                <asp:Button ID="BtnAddMember" runat="server" OnClick="BtnAddMember_Click" Text="Add Member" />
             </td>
+            <td class="auto-style6">
+                &nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style6">
+                &nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>

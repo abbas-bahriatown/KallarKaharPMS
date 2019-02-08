@@ -37,6 +37,9 @@
                     <li>
                         <a href="Member.aspx">New Member</a>
                     </li>
+                     <li>
+                        <a href="AllMembers.aspx">All Members</a>
+                    </li>
                     <li>
                         <a href="Property.aspx">Property</a>
                     </li>

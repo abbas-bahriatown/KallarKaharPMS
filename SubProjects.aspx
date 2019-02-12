@@ -34,7 +34,7 @@
             <td class="auto-style4"><span class="auto-style2">* Details</span></td>
             <td class="auto-style6">
                 <asp:TextBox ID="Details" runat="server" Height="76px" Width="266px"></asp:TextBox>
-                <span class="auto-style3">
+                <span class="auto-style3"></span>
                 <br /></td>
         </tr>
         <tr>

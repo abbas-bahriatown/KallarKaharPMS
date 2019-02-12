@@ -47,18 +47,19 @@
         <tr>
             <td class="auto-style1" colspan="2">
                 
-                <asp:GridView ID="GridView1" style="border-style: double; border-color: inherit; border-width: medium; text-align: center;" runat="server" BorderStyle="Solid" BorderWidth="1px" CellPadding="4" ForeColor="#333333" GridLines="None">
-                    <AlternatingRowStyle BackColor="White" BorderStyle="Solid" />
-                    <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-                    <HeaderStyle BackColor="#990000" BorderStyle="Solid" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-                    <RowStyle BackColor="#FFFBD6" BorderStyle="Solid" ForeColor="#333333" />
-                    <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
-                    <SortedAscendingCellStyle BackColor="#FDF5AC" />
-                    <SortedAscendingHeaderStyle BackColor="#4D0000" />
-                    <SortedDescendingCellStyle BackColor="#FCF6C0" />
-                    <SortedDescendingHeaderStyle BackColor="#820000" />
-                </asp:GridView>
+                                                         <asp:GridView ID="GridView2" style="margin-top:0%;"  data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" EnableSortingAndPagingCallbacks="True" PageSize="1" OnRowCreated="GridView2_RowCreated" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
+                                             <AlternatingRowStyle BackColor="White" />
+                                             <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                             <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                             <PagerSettings PageButtonCount="1" />
+                                             <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                                             <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                                             <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                                             <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                                             <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                                             <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                                             <SortedDescendingHeaderStyle BackColor="#820000" />
+                                        </asp:GridView>
             </td>
             <td class="auto-style1"></td>
         </tr>

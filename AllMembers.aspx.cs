@@ -43,7 +43,7 @@ public partial class AllMembers : System.Web.UI.Page
         DataTable dt = new DataTable();
         sc.CommandType = CommandType.Text; // Query type is text, other option can be stored procedure
         int result = sc.ExecuteNonQuery();// execution of query
-        SqlDataAdapter sda = new SqlDataAdapter(sc);
+        SqlDataAdapter sda = new SqlDataAdapter(sc);  
         sda.Fill(dt);
         GridView1.DataSource = dt;
         GridView1.DataBind();

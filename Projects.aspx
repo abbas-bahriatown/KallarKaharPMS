@@ -35,6 +35,7 @@
         <tr>
             <td class="auto-style4">
                 <asp:Button ID="BtnAddMember" runat="server" OnClick="BtnAddMember_Click" Text="Add Project" />
+                <asp:Button ID="UpdateMember" runat="server" OnClick="UpdateMember_Click" Text="Update" Visible="False" />
             </td>
             <td class="auto-style6">&nbsp;</td>
             <td rowspan="2">&nbsp;</td>

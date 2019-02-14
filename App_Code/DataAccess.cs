@@ -194,7 +194,7 @@ public class DataAccess
 
         public string GetMAXID(string col, string tablename)
         {
-            string id = "0";
+            string id = "1";
             try
             {
                 string q = "Select max(" + col + ") From " + tablename;

@@ -34,6 +34,9 @@
             width: 164px;
             height: 26px;
         }
+        .auto-style11 {
+            height: 3px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentbody" Runat="Server">
@@ -53,9 +56,17 @@
         </tr>
         <tr>
             <td class="auto-style4"></td>
+            <td class="auto-style4">Property ID</td>
+            <td class="auto-style4">
+                <asp:TextBox ID="ID" runat="server" ReadOnly="True"></asp:TextBox>
+            </td>
             <td class="auto-style4"></td>
-            <td class="auto-style4"></td>
-            <td class="auto-style4"></td>
+        </tr>
+        <tr>
+            <td class="auto-style11"></td>
+            <td class="auto-style11"></td>
+            <td class="auto-style11"></td>
+            <td class="auto-style11"></td>
         </tr>
         <tr>
             <td class="auto-style9">Registraion No</td>
@@ -88,7 +99,7 @@
             <td class="auto-style4">
                 <asp:TextBox ID="txtPlotBlock" runat="server" Width="150px"></asp:TextBox>
             </td>
-            <td class="auto-style4">&nbsp; Street</td>
+            <td class="auto-style4">&nbsp;&nbsp; Street</td>
             <td class="auto-style4">
                 <asp:TextBox ID="txtPlotStreet" runat="server" Width="150px"></asp:TextBox>
             </td>
@@ -98,7 +109,7 @@
             <td class="auto-style6">
                 <asp:TextBox ID="txtApartmentBlock" runat="server" Width="150px"></asp:TextBox>
             </td>
-            <td class="auto-style8">&nbsp; Apartment Floor</td>
+            <td class="auto-style8">&nbsp;&nbsp; Apartment Floor</td>
             <td class="auto-style4">
                 <asp:TextBox ID="txtApartmentFloor" runat="server" Width="150px"></asp:TextBox>
             </td>

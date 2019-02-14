@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentbody" Runat="Server">
-    <table class="w-100" border="1">QQQ
+    <table class="w-100" border="1">
         <tr>
             <td colspan="3"><span class="auto-style3"><strong>PMS : New User Information</strong></td>
         </tr>
@@ -13,7 +13,7 @@
             <td class="auto-style1"></td>
             <td class="auto-style1"></td>
         </tr>
-        <tr>aa
+        <tr>
             <td class="auto-style1"><span class="auto-style2">*</span> Sub Project ID</td>
             <td class="auto-style1">
                 <asp:TextBox ID="ID" runat="server" ReadOnly="True"></asp:TextBox>

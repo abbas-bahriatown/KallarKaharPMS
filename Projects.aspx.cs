@@ -34,6 +34,11 @@ public partial class Projects : System.Web.UI.Page
 
     protected void GridView2_SelectedIndexChanged(object sender, EventArgs e)
     {
-        ID.Text = GridView2.Rows[GridView2.SelectedIndex].Cells[0].Text;
+        if (GridView2.Rows[GridView2.SelectedIndex].Cells.Count > 2)
+        {
+            ID.Text = GridView2.Rows[GridView2.SelectedIndex].Cells[0].Text;
+            SubProjectName.Text = GridView2.Rows[GridView2.SelectedIndex].Cells[1].Text;
+            Details.Text = GridView2.Rows[GridView2.SelectedIndex].Cells[2].Text;
+        }
     }
 }

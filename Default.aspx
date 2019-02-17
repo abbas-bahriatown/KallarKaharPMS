@@ -6,6 +6,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentBody" Runat="Server">
-    This is Home Page
+    This is Home Page 
 </asp:Content>
 

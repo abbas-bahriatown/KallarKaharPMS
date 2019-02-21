@@ -75,10 +75,13 @@
             <td class="auto-style12">
                 <asp:TextBox ID="DSNo" runat="server" OnTextChanged="TextBox3_TextChanged" Width="150px"></asp:TextBox>
                 <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Enter DS No" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="auto-style12">&nbsp; DS Date *</td>
             <td class="auto-style14">
                 <asp:TextBox ID="DSDate" runat="server" Width="150px"></asp:TextBox>
+                <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Please Enter DS Date" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
             </td>
         </tr>
@@ -87,22 +90,29 @@
             <td class="auto-style7">
                 <asp:TextBox ID="DDPONo" runat="server" Width="150px"></asp:TextBox>
                 <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please Enter DD/PO No" ForeColor="Red"></asp:RequiredFieldValidator>
+                <br />
             </td>
             <td class="auto-style7">&nbsp; DD / PO Date *</td>
             <td class="auto-style15">
                 <asp:TextBox ID="DDPODate" runat="server" Width="150px"></asp:TextBox>
                 <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Please Enter DD/PO Date" ForeColor="Red"></asp:RequiredFieldValidator>
+                <br />
             </td>
         </tr>
         <tr>
-            <td class="auto-style2">&nbsp;Cheque No *&nbsp;</td>
+            <td class="auto-style2">&nbsp; Cheque No *&nbsp;</td>
             <td class="auto-style7">
                 <asp:TextBox ID="ChequeNo" runat="server" Width="150px"></asp:TextBox>
                 <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Please Enter Cheque No" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="auto-style7">&nbsp; Cheque Date *</td>
             <td class="auto-style15">
                 <asp:TextBox ID="ChequeDate" runat="server" Width="150px"></asp:TextBox>
+                <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
             </td>
         </tr>
@@ -111,6 +121,7 @@
             <td class="auto-style7">
                 <asp:TextBox ID="PaymentDesc" runat="server" Width="150px"></asp:TextBox>
                 <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="auto-style7">&nbsp; Installment No</td>
             <td class="auto-style15">
@@ -119,23 +130,25 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style2">&nbsp; Amount Due&nbsp;</td>
             <td class="auto-style7">
-                <asp:TextBox ID="Currency" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="AmountDue" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="auto-style7">&nbsp; Amount Paid *</td>
             <td class="auto-style15">
                 <asp:TextBox ID="AmountPaid" runat="server" Width="150px"></asp:TextBox>
+                <br />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
-            <td class="auto-style2">&nbsp;Currency</td>
+            <td class="auto-style2">&nbsp; Currency</td>
             <td class="auto-style7">
-                <asp:TextBox ID="TextBox8" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="Currency" runat="server" Width="150px"></asp:TextBox>
             </td>
-            <td class="auto-style7">&nbsp;Opend By &nbsp;</td>
+            <td class="auto-style7">&nbsp; Opend By &nbsp;</td>
             <td class="auto-style15">
-                <asp:TextBox ID="TextBox16" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="OpendBy" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
     </table>

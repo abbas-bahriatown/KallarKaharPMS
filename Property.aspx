@@ -56,26 +56,27 @@
         </tr>
         <tr>
             <td class="auto-style4"></td>
-            <td class="auto-style4">Property ID</td>
+            <td class="auto-style4">&nbsp;</td>
             <td class="auto-style4">
-                <asp:TextBox ID="ID" runat="server" ReadOnly="True"></asp:TextBox>
-            </td>
+                &nbsp;</td>
             <td class="auto-style4"></td>
         </tr>
         <tr>
-            <td class="auto-style11"></td>
-            <td class="auto-style11"></td>
+            <td class="auto-style11">Property ID</td>
+            <td class="auto-style11">
+                <asp:TextBox ID="ID" runat="server" ReadOnly="True" Width="150px"></asp:TextBox>
+            </td>
             <td class="auto-style11"></td>
             <td class="auto-style11"></td>
         </tr>
         <tr>
             <td class="auto-style9">Registraion No</td>
             <td class="auto-style5">
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" Width="150px"></asp:TextBox>
             </td>
             <td class="auto-style7">&nbsp;&nbsp; Project</td>
             <td>
-                <asp:TextBox ID="txtProject" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtProject" runat="server" Width="150px"></asp:TextBox>
             </td>
         </tr>
         <tr>

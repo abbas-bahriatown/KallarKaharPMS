@@ -26,7 +26,7 @@
 <body>
     <form id="form1" runat="server">
       
-<div class="wrapper" style="width: 19%; float:left;">
+<div class="wrapper" style="width: 15%; float:left;">
     <!-- Sidebar -->
     <nav id="sidebar">
         <div class="sidebar-header">
@@ -34,28 +34,13 @@
         </div>
 
         <ul class="list-unstyled components">
-            <p>PMS PROJECT</p>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span>Member Information </a>
-                  
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="Member.aspx">New Member</a>
-                    </li>
-                     <li>
-                        <a href="AllMembers.aspx">All Members</a>
-                    </li>
-                    <li>
-                        <a href="Property.aspx">Property</a>
-                    </li>
-                    <li>
-                        <a href="#">Home 3</a>
-                    </li>
-                </ul>
+            <p>&nbsp;</p>
+            <li>
             </li>
             <li>
-                <a href="#">About</a>
             </li>
+            <li>
+                &nbsp;</li>
             <li>
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
